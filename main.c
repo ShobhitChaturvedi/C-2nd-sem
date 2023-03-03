@@ -1,4 +1,4 @@
-
+//write a program to print day of week name using switch case
 #include <stdio.h>
 
 int main()
