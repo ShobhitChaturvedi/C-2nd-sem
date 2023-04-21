@@ -9,8 +9,7 @@ void main()
 {   
     int x;
     for(int i=1;i==1;){
-    printf(" \
-    n 1 for armstrong, 2 for fibonacci,3 for palendrome,4 for factorial 5 to end ");
+    printf(" \n 1 for armstrong, 2 for fibonacci,3 for palendrome,4 for factorial 5 to end ");
     scanf("%d",&x);
     switch (x)
     {
