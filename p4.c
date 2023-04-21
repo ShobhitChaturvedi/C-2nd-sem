@@ -1,3 +1,4 @@
+//sum using function
 #include <stdio.h>
 void sum();
 void main()
