@@ -4,27 +4,38 @@ void arm();
 void fabb();
 void pal();
 void fac();
+void end();
 void main()
-{
+{   
     int x;
-    printf("1 for armstrong, 2 for fibonacci,3 for palendrome,4 for factorial ");
+    for(int i=1;i==1;){
+    printf(" \
+    n 1 for armstrong, 2 for fibonacci,3 for palendrome,4 for factorial 5 to end ");
     scanf("%d",&x);
     switch (x)
     {
     case 1:
         arm();
+        i=1;
      
         break;
     case 2:
-    fabb();   
+    fabb();  
+    i=1; 
         break;
     case 3:
     pal();
+    i=1;
     break;
     case 4:
     fac();
+    i=1;
+    break;
+    case 5:
+    end();
+    i=0;
     }
-    
+    }
 }
 void arm()
 {
@@ -82,4 +93,7 @@ void fabb()
       fact=fact*i;    
   }    
   printf("Factorial of %d is: %d",number,fact);    
+}
+void end()
+{printf("thanxx!!");
 }
